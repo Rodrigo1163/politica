@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
 }
 nav{
     width: 100vw;
@@ -47,4 +48,20 @@ nav{
 }
 .margin{
     margin: 0 100px;
+}
+.icon{
+    margin-top: 10px;
+}
+
+.icon img{
+    width: 100px;
+}
+.icon img:hover{
+    transform: translate();
+}
+
+@media (max-width: 768px){
+    body{
+        width: 600px;
+    }
 }
