@@ -22,6 +22,9 @@ nav{
     height: 4em;
     
 }
+.max-wid1300{
+    gap: 220px;
+}
 
 
 /* .navbarWidth{
@@ -41,4 +44,7 @@ nav{
 }
 .imgLogo{
     width: 140px;
+}
+.margin{
+    margin: 0 100px;
 }
