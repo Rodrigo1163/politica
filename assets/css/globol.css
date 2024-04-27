@@ -38,7 +38,9 @@ nav{
 }
 
 .bio{
-    max-width: 800px;
+    max-width: 1000px;
+
+    text-align: justify;
 }
 .bio img{
     width: 400px;
