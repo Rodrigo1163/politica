@@ -1,69 +1,78 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    
-}
-body{
-    max-width: 1366px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
-}
-nav{
-    width: 100vw;
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #033D7F;
-    font-size: 1.2em;
-    height: 4em;
-    
-}
-.max-wid1300{
-    gap: 220px;
-}
 
-
-/* .navbarWidth{
-    max-width: 1366px;
-} */
-
-.img_carrousel{
-    width: 1040px;
-    height: 600px;
+.carousel-item img {
+    height: 350px !important;
 }
-
 .bio{
-    max-width: 1000px;
+    width: 75% !important; 
+}
+.azul{
+    background-color: #033D7F;
+}
+.nav-item a {
+    font-size: 1.4rem;
+}
+.logo img{
+    width: 80px;
+}
+.azuk-claro{
+    color: rgb(75, 75, 206) !important;
+}
+.rd_social{
+    display: flex;
+}
+.contato{
+    gap: 10px;
+}
+@media (max-width: 767px){
+    .contato h3{
+        font-size: 16px;
+    }
+    .contato input{
+        height: 2em;
+        width: 90% !important;
+    }
+    
+}
 
-    text-align: justify;
-}
-.bio img{
-    width: 400px;
-}
-.imgLogo{
-    width: 140px;
-}
-.margin{
-    margin: 0 100px;
-}
-.icon{
-    margin-top: 10px;
-}
-
-.icon img{
-    width: 100px;
-}
-.icon img:hover{
-    transform: translate();
-}
-
-@media (max-width: 768px){
-    body{
-        width: 600px;
+@media (min-width: 768px){
+    .carousel-item {
+        width: 90% !important;
+        height: 700px !important;
+        margin-top: 10px;
+    }
+    .carousel-item img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+    .carousel-inner{
+        left: 55%;
+        transform: translate(-50%, 0);
+        /* background-color: white !important; */
+    }
+    
+    .bio{
+        display: flex !important;
+        width: 87.8% !important; 
+        gap: 70px;
+    }
+    .bio p {
+        flex-wrap: wrap !important;
+        
+    }
+    .p-6{
+        padding: 20px 65px !important;
+    }
+    .rd_social{
+        order: 1;
+    }
+    .navbar-toggler{
+        order: 0;
+    }
+    .contato{
+        gap: 10px;
+    }
+    .contato input{
+        height: 2em;
     }
 }
