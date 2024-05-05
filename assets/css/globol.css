@@ -41,6 +41,10 @@
         height: 2em;
         width: 90% !important;
     }
+    .containerVideo video { 
+        width: 90%;
+        height: 100%;
+    }
     
 }
 
