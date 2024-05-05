@@ -23,10 +23,16 @@
 .contato{
     gap: 10px;
 }
+.titleProjeto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .containerVideo{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     margin-top: 50px;
     margin-bottom: 80px;
 }
