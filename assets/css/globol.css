@@ -28,6 +28,7 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 .containerVideo video { 
     border-radius: 8px;
