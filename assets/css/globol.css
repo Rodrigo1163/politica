@@ -23,6 +23,15 @@
 .contato{
     gap: 10px;
 }
+.containerVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.containerVideo video { 
+    border-radius: 8px;
+}
 @media (max-width: 767px){
     .contato h3{
         font-size: 16px;
